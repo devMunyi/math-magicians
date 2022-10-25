@@ -9,13 +9,13 @@ This is a website for all fans of mathematics. It is a Single Page App (SPA) tha
 
 ## Getting Started
 
-### See on [live Demo](https://devmunyi.github.io/math-magicians/)
+### See [live Demo](https://devmunyi.github.io/math-magicians/)
 
 To get a local copy up and running follow these simple example steps:
 
 - Open your terminal or command line
 - Run `git clone` and Paste the link
-- After the clone, type in the command `cd js-capstone-project` to access the directory on the terminal
+- After the clone, type in the command `cd math-magicians` to access the directory on the terminal
 - run `npm install` to install depencencies.
 - Run `npm run start` and it will load a live server in http://localhost:3000/
 
