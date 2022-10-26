@@ -10,7 +10,7 @@ class Calculator extends Component {
     // initialize state
     this.state = {
       total: 0,
-      next: 0,
+      next: null,
       operation: null,
     };
 
