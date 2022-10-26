@@ -21,6 +21,10 @@ td {
   padding: 30px !important;
 }
 
+td:hover {
+  cursor: pointer;
+}
+
 .bg-silver {
   background-color: silver !important;
 }
