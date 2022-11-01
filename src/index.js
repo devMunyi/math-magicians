@@ -28,9 +28,9 @@ root.render(
     <Router>
       <NavBar />
       <Routes>
-        <Route index path="/" element={<HomePage />} />
-        <Route path="/calculator" element={<CalculatorPage />} />
-        <Route path="/qoute" element={<QuotePage />} />
+        <Route index path="/math-magicians" element={<HomePage />} />
+        <Route path="/math-magicians/calculator" element={<CalculatorPage />} />
+        <Route path="/math-magicians/qoute" element={<QuotePage />} />
         <Route path="*" element={<NoMatch />} />
       </Routes>
     </Router>

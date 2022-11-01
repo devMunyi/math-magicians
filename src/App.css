@@ -80,3 +80,10 @@ nav {
   word-spacing: 0.5rem;
   letter-spacing: 1px;
 }
+
+.nomatch {
+  min-height: calc(100vh - 70px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
