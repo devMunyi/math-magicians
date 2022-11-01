@@ -1,6 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", Arial, sans-serif;
+  color: #444;
+  background: #fff;
+  height: 100vh;
+}
+
+.homepage {
+  line-height: 1.4;
+}
 
 table {
-  width: 50% !important;
+  width: 100% !important;
   font-size: 25px;
   margin: 50px auto;
   color: white;
@@ -31,4 +47,37 @@ td:hover {
 
 .bg-orange {
   background-color: rgba(255, 94, 0, 0.822) !important;
+}
+
+
+/* Navbar  */
+nav {
+  box-shadow: rgba(0, 0, 0, 0.24) 0 3px 8px;
+  padding: 5px;
+}
+
+.link-item {
+  text-decoration: none;
+  color: black;
+}
+
+.brand {
+  cursor: pointer;
+}
+
+.list-item:hover {
+  color: blue;
+  cursor: pointer;
+}
+
+.active {
+  color: blue;
+}
+
+.qoute {
+  min-height: calc(100vh - 80px);
+  line-height: 2.4;
+  font-weight: 600;
+  word-spacing: 0.5rem;
+  letter-spacing: 1px;
 }
