@@ -13,17 +13,17 @@ const NavBar = () => {
   const links = [
     {
       id: 1,
-      path: '/',
+      path: '/math-magicians',
       text: 'Home',
     },
     {
       id: 2,
-      path: '/calculator',
+      path: '/math-magicians/calculator',
       text: 'Calculator',
     },
     {
       id: 3,
-      path: '/qoute',
+      path: '/math-magicians/qoute',
       text: 'Quote',
     },
   ];
@@ -31,7 +31,7 @@ const NavBar = () => {
   return (
     <nav className="d-flex justify-content-between align-items-center container-fluid">
       <div className="brand display-6">
-        <Link className="link-item" to="/">
+        <Link className="link-item" to="/math-magicians">
           Math Magicians
         </Link>
       </div>
