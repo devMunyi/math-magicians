@@ -9,7 +9,7 @@ This is a website for all fans of mathematics. It is a Single Page App (SPA) tha
 
 ## Getting Started
 
-### See [live Demo](https://devmunyi.github.io/math-magicians/)
+### See [live Demo](https://maths-site.netlify.app/)
 
 To get a local copy up and running follow these simple example steps:
 
